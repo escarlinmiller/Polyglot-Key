@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POLIGLOT KEY</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Existing styles ... */
+
+      /* Ensure header image is responsive and centered */
+      header img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%; /* Make sure the image is not wider than the screen */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      /* Adjust grid layout for better spacing and alignment */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(300px, 1fr)
+        ); /* Adjust minimum column size if necessary */
+        gap: 20px; /* Adjust gap for more space if needed */
+      }
+
+      /* Style adjustments for images inside cards to make them responsive */
+      .card img {
+        max-width: 100%; /* Ensure images don't exceed the width of the card */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Optional: Adds rounded corners to the images */
+      }
+
+      /* Additional styling for cards */
+      .card {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        flex-direction: column; /* Ensures content inside cards is vertically spaced */
+        align-items: center; /* Center-aligns card content */
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- Centered and resized header image -->
+      <img
+        src="PolyglotKey.webp"
+        alt="Colorful world culture representation"
+        style="width: 60%; height: auto; max-height: 300px"
+      />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="TheKey.html">TheKey</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="title">Welcome to Polyglot Key!</h1>
+      <p class="description">
+        Embark on a cultural journey with <strong>Polyglot Key</strong>, your
+        gateway to unlocking the languages and cultures of the world. Whether
+        you're planning a trip or just curious about new languages, our platform
+        offers an engaging starting point. Dive into interactive lessons,
+        cultural insights, and practical language tools designed to inspire and
+        prepare you for real-world conversations. Let's bridge cultures, one
+        word at a time.
+      </p>
+      <p>
+        Ready to begin? Start your journey with <strong>Polyglot Key</strong> by
+        exploring our curated selection of languages. Each section offers a
+        unique blend of lessons tailored to introduce you to the language and
+        culture of your choice. From essential phrases to cultural etiquette,
+        our resources are designed to make your learning experience both
+        informative and enjoyable.
+      </p>
+
+      <p>
+        To dive in, simply click on our <strong>The Key</strong> page, find your desire language by choosing the module, which are equipped
+        with interactive elements to test your knowledge as you go.
+      </p>
+      <section class="get-started">
+        <h2>Get Started with Your Language Journey</h2>
+        <p>
+          Embark on an enriching journey into the world of languages with
+          <strong>The Tkey</strong> page, which serves as your comprehensive guide to exploring diverse languages and cultures from around the globe. It offers a curated selection of resources designed to immerse you in the learning experience, whether you're interested in Portuguese, Italian, or any other culture. Click on any link to start and find your language journey toward linguistic proficiency and cultural understanding. Whether you're a beginner or looking to advance your skills.
+        </p>
+      </section>
+
+      <section class="grid">
+        <!-- New section with more images and links -->
+        <a href="#" class="card">
+          <img
+            src="Portugal.webp"
+            alt="Portugal Language and Culture"
+            style="width: 100%; height: auto; max-height: 220px"
+          />
+          <h2>Portugal Language and Culture</h2>
+          <p>Learn how to engage with small conversations.</p>
+        </a>
+
+        <a href="#" class="card">
+          <img
+            src="Italy.webp"
+            alt="Italian Language and Culture"
+            style="width: 100%; height: auto; max-height: 220px"
+          />
+          <h2>Italian Language and Culture</h2>
+          <p>Ask questions and discover your way.</p>
+        </a>
+
+        <!-- Placeholder for future page -->
+        <a href="TheKey.html" class="card">
+          <h2>The Key &rarr;</h2>
+          <p>Discover your language learning journey.</p>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Polyglot Key. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
